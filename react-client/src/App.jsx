@@ -10,8 +10,8 @@ function App() {
       <Router>
         <NavBrands />
         <Routes>
-          <Route exact path="/addBrands" element={<Brands />} />
           <Route exact path="/brands" element={<MyBrands />} />
+          <Route exact path="/addBrands" element={<Brands />} />
         </Routes>
       </Router>
     </div>
