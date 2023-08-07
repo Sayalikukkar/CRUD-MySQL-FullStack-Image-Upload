@@ -3,7 +3,7 @@ import React from "react";
 
 const Brands = () => {
   return (
-    <div className="container mt-5" style={{ width: "500px" }}>
+    <div className="container" style={{ width: "500px", marginTop: "100px"}}>
       <form>
         <div className="mb-3">
           <label for="exampleInputEmail1" className="form-label">
