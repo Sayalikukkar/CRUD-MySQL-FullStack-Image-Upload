@@ -6,7 +6,7 @@ const navBrands = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <Link className="navbar-brand nav-link" to="/brands">
+        <Link className="navbar-brand nav-link" to="/">
           My Collection
         </Link>
         <button
